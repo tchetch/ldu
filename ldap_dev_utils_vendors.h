@@ -20,7 +20,7 @@
 #		define LDU_OPENLDAP_LDAP 1
 #		ifdef LDAP_CONNECTIONLESS
 #			undef LDU_HAS_CLDAP
-#			define LDU_HAS_CLDAP
+#			define LDU_HAS_CLDAP 1
 #		endif
 #	else
 #		undef LDU_NOVELL_LDAP
